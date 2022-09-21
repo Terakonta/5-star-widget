@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>My Shop</title>
+    <script src="./script.js" async></script>
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+​
+
+  <template id="rating-template">
+    <style>
+      .star
+      {
+        border: none;
+        background-color: unset;
+        font-size:x-large;
+        padding: 0;
+        
+      }
+    </style>
+    
+    <div id="rating-container">
+      <button class="star">&star;</button>
+      <button class="star">&star;</button>
+      <button class="star">&star;</button>
+      <button class="star">&star;</button>
+      <button class="star">&star;</button>
+    </div>
+  </template>
+
+  <body>
+
+    <div class="product">
+      <img src="shoe.jpg" class="merch">
+      <rating-component uuid="some-uuid" product-name="shoe" id="123"></rating-component>
+    </div>
+
+    <div class="product">
+      <img src="shirt.png" class="merch">
+      <rating-component uuid="another-uuid" product-name="shirt" id="456"></rating-component>
+    </div>
+  </body>
+</html>

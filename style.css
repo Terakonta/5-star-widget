@@ -1,0 +1,29 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+body
+{
+  background: linear-gradient(to top, #8f0032, #F78FB3);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.merch
+{
+  width: 200px;
+  height: 200px;
+}
+
+.product
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+  text-align: center;
+}
