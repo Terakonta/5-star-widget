@@ -15,7 +15,7 @@ class Rating extends HTMLElement
         // So ratings can only be submitted once
         var ratingGiven = false;
 
-        // UUID of a product. Can get other product specific attributes and save them too
+        // universally unique identifier (UUID) of a product. Can get other product specific attributes and save them too
         var uuid = this.getAttribute("uuid");
         var productName = this.getAttribute("product-name");
         
